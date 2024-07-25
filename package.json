@@ -1,0 +1,32 @@
+{
+  "name": "bookshop_api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "sass --watch src/sass/style.scss src/css/style.css",
+    "build": "webpack",
+    "build:watch": "webpack --watch",
+    "start:dev": "webpack serve"
+  },
+  "author": "dvhmed",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "core-js": "^3.37.1",
+    "css-loader": "^7.1.2",
+    "css-minimizer-webpack-plugin": "^7.0.0",
+    "html-webpack-plugin": "^5.6.0",
+    "mini-css-extract-plugin": "^2.9.0",
+    "node-sass": "^9.0.0",
+    "postcss-loader": "^8.1.1",
+    "pug": "^3.0.3",
+    "pug-plugin": "^5.3.0",
+    "sass": "^1.77.8",
+    "sass-loader": "^14.2.1",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}

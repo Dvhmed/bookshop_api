@@ -1,0 +1,99 @@
+.header {
+    @include header_flex; //include
+    position: fixed; 
+    top: 0;
+    z-index: 3;
+    background-color: #fff;
+    min-height: 100px;
+    gap: 240px;
+    padding-top: 10px;
+    
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.nav {
+    @include header_flex;
+    gap: 250px;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.nav__list {
+    @include header_flex;
+    gap: 40px;
+    white-space: nowrap;
+}
+
+.icons {
+    @include header_flex;
+    gap: 40px;
+}
+
+.lorem {
+    margin-top: 116px;
+}
+
+.nav__item, .nav__icon {
+    cursor: pointer;
+}
+.nav__icon_basket {
+    position: relative;
+    
+}
+.nav__icon_count-circle {
+    display: none;
+    position: absolute; 
+    top: 52%; 
+    left: 100%;
+    margin-left: -2px; 
+    transform: translateX(-50%);
+}
+
+.nav__item_active {
+    color: $secondary-color;
+    font-weight: 900;
+}
+
+@media screen and (max-width: 1200px) {
+    .header {
+        gap: 100px;
+    }
+
+    .nav {
+        gap: 100px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        gap: 40px;
+    }   
+
+    .nav {
+        gap: 40px;  
+    }
+
+
+    
+}
+
+@media screen and (max-width: 480px) {
+
+    .header {
+        display: block;
+        text-align: center;
+        padding: 10px 10px;
+    }
+    .nav {
+        display: block;
+    }
+    .icons{
+        justify-content: flex-end;
+
+    }
+}
