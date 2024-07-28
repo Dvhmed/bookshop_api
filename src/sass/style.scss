@@ -4,6 +4,9 @@
 @import 'variables.scss';
 @import 'header.scss';
 @import 'sidebar.scss';
+@import 'slider.scss';
+@import 'promo.scss';
+@import 'books.scss';
 
 .body {
     font-family: 'Montserrat', 'Open Sans', sans-serif;
@@ -16,8 +19,7 @@
     
     margin: 0 auto;
     position: relative;
-    height: 100vh;
-    overflow-y: auto;
+    
 }
 
 

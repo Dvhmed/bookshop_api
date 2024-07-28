@@ -6,7 +6,7 @@
     background-color: #fff;
     min-height: 100px;
     gap: 240px;
-    padding-top: 10px;
+    // padding-top: 10px;
     
 }
 
@@ -31,6 +31,7 @@
 .icons {
     @include header_flex;
     gap: 40px;
+    padding-left: 18px;
 }
 
 .lorem {
@@ -61,6 +62,7 @@
 @media screen and (max-width: 1200px) {
     .header {
         gap: 100px;
+        
     }
 
     .nav {
@@ -88,6 +90,7 @@
         display: block;
         text-align: center;
         padding: 10px 10px;
+        
     }
     .nav {
         display: block;

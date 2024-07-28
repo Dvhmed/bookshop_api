@@ -8,17 +8,22 @@ html(lang='en')
     script(src=require('./js/main.js') defer='defer')
     
   body.body
-      .container
+      .container 
         header.header 
           include pug/header.pug 
 
-          
+         
         main.content
           .slider
+            include pug/promo.pug
+            include pug/slider.pug
+              
           .books
-            .book
+            include pug/book.pug
       aside.sidebar
-          include pug/sidebar.pug
-          
-      aside.promo
-      aside.promo2
+        include pug/sidebar.pug
+
+      
+
+        
+        

@@ -1,0 +1,32 @@
+.book-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    column-gap: 76px;
+    padding: 20px;  
+    row-gap: 96px;
+    z-index: 10;
+    position: relative;
+    
+}
+
+.book {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 36px;
+    
+}
+
+.book-description {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.book-image {
+    min-width: 212px;
+    object-fit: cover; 
+}
+

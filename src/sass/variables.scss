@@ -2,8 +2,11 @@ $primary-color: #5c6a79;
 $secondary-color: #1c2a39;
 $button-text-color: #1c2a39;
 
+
+
 @mixin header_flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
