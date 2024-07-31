@@ -1,0 +1,72 @@
+.promo-one {
+  position: absolute;
+  top: 82px;
+  right: -70px;
+  z-index: 5;
+  box-shadow: 0px 24px 36px 0px rgba(53, 49, 84, 0.28);
+  background: rgb(238, 236, 236);
+}
+
+.promo-two {
+  position: absolute;
+  top: 362px;
+  right: -180px;
+  z-index: 5;
+}
+
+@media screen and (max-width: 1200px) {
+  .promo-one {
+    max-width: 50%;
+  }
+
+  .promo-two {
+    max-width: 50%;
+    min-height: 50%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .promo-one {
+    max-width: 30%;
+    min-height: 30%;
+    top: 20px;
+    right: -30px;
+  }
+
+  .promo-two {
+    max-width: 30%;
+    min-height: 30%;
+    top: 230px;
+    right: -60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .promo-one {
+    max-width: 15%;
+    min-height: 15%;
+    right: -30px;
+  }
+
+  .promo-two {
+    max-width: 15%;
+    min-height: 15%;
+    top: 250px;
+    right: -50px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .promo-one {
+    max-width: 10%;
+    min-height: 10%;
+    right: -5px;
+  }
+
+  .promo-two {
+    max-width: 10%;
+    min-height: 10%;
+    top: 150px;
+    right: -15px;
+  }
+}

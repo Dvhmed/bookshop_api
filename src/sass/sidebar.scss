@@ -1,15 +1,15 @@
 .sidebar-wrapper {
-  top: 940px;
+  top: 840px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   position: absolute;
   min-width: 410px;
   background-color: #efeef6;
-  padding: 45px 0 80px;
+  padding: 40px 0 80px;
   justify-content: center;
   align-items: center;
-  
+  z-index: 5;
 }
 
 .sidebar-category {
@@ -26,7 +26,6 @@
   font-size: 16px;
   font-weight: 700;
   position: relative;
-
 }
 
 .sidebar-category__item_active::before {
@@ -35,11 +34,10 @@
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background-color: #756AD3;
+  background-color: #756ad3;
   left: -14px;
   top: 50%;
   transform: translateY(-50%);
-  
 }
 
 @media screen and (max-width: 1024px) {
