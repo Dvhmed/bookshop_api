@@ -1,25 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-@import 'normilize.scss';
-@import 'variables.scss';
-@import 'header.scss';
-@import 'sidebar.scss';
-@import 'slider.scss';
-@import 'promo.scss';
-@import 'books.scss';
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import "normilize.scss";
+@import "variables.scss";
+@import "header.scss";
+@import "sidebar.scss";
+@import "slider.scss";
+@import "promo.scss";
+@import "books.scss";
 
 .body {
-    font-family: 'Montserrat', 'Open Sans', sans-serif;
-    color: $primary-color;
-    position: relative;
+  font-family: "Montserrat", "Open Sans", sans-serif;
+  color: $primary-color;
+  position: relative;
 }
 
 .container {
-    max-width: 1120px;
-    
-    margin: 0 auto;
-    position: relative;
-    
+  max-width: 1120px;
+
+  margin: 0 auto;
+  position: relative;
 }
-
-
